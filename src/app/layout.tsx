@@ -17,6 +17,29 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Blinks",
   description: "Blinks by Ayush Agrawal",
+  openGraph: {
+    title: "Blinks",
+    description: "Blinks by Ayush Agrawal",
+    type: "website",
+    url: "https://blinks.ayushagr.me",
+    siteName: "Blinks",
+    images: [
+      {
+        url: "https://blinks.ayushagr.me/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Blinks",
+      },
+    ],
+  },
+  twitter: {
+    creator: "@A91y",
+    site: "@A91y",
+    card: "summary_large_image",
+    title: "Blinks",
+    description: "Blinks by Ayush Agrawal",
+    images: ["https://blinks.ayushagr.me/og-image.png"],
+  },
 };
 
 export default function RootLayout({
