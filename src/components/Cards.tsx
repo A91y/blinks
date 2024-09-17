@@ -35,7 +35,7 @@ const Cards = () => {
           </CardBody>
           <Divider />
           <CardFooter className="flex justify-between">
-            <Link isExternal showAnchorIcon href={blink.liveUrl}>
+            <Link isExternal showAnchorIcon href={blink.liveUrl} className="text-[#f9ff55]">
               Live
             </Link>
             <Link isExternal href={blink.githubUrl}>
