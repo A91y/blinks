@@ -35,4 +35,13 @@ export const blinks: Blink[] = [
     moreDescription:
       "Quick and easy way to transfer SOL to another Solana wallet. Payment links to a wallet can be created to accept on devnet & mainnet.",
   },
+  {
+    title: "Micnft",
+    description: "A blink to mint cNFTs.",
+    imageUrl: "https://micnft.ayushagr.me/logo.png",
+    liveUrl: "https://micnft.ayushagr.me",
+    githubUrl: "https://github.com/A91y/micnft",
+    moreDescription:
+      "A very quick way to mint cNFT, paying a small fee to support the platform.",
+  },
 ];
